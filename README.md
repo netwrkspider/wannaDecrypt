@@ -115,8 +115,17 @@ credit: nulldot https://pastebin.com/0LrH05y2
 <64 bit file size>        - return by GetFileSizeEx
 <encrypted data>          - with custom AES-128 in CBC mode
 ```
+# POC WannaDecrypt
 
-credit for reversing this file format info: cyg_x11
+This POC can decrypt your files encrypted by WanaCry! malware ONLY if you got the RSA key!!!
+(in memory, others...)
+
+It's only a little help on the road to have maybe a version that can get the key at one point...
+
+Thank you to @msuiche, @halsten & @malwareunicorn @netwrkspider 
+
+
+credit for reversing this file format info: cyg_x11 || zX || netwrkspider
 
 # Vulnerability disclosure
 
